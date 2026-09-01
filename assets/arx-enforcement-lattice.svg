@@ -1,0 +1,99 @@
+<svg width="1180" height="620" viewBox="0 0 1180 620" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica Neue, Arial, sans-serif">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="1180" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070B10"/>
+      <stop offset="1" stop-color="#0A1015"/>
+    </linearGradient>
+    <linearGradient id="lrule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cb782" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4cb782"/>
+      <stop offset="1" stop-color="#4cb782" stop-opacity="0"/>
+    </linearGradient>
+    <marker id="larr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4cb782"/>
+    </marker>
+    <marker id="rarr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5C7268"/>
+    </marker>
+  </defs>
+
+  <rect width="1180" height="620" fill="url(#lbg)"/>
+  <text x="60" y="64" font-size="26" font-weight="700" letter-spacing="3" fill="#F2F6F4">THE ENFORCEMENT LATTICE</text>
+  <text x="60" y="92" font-size="14" letter-spacing="1.5" fill="#7E948A">EVERY EXTERNAL ACTION CLEARS FOUR INDEPENDENT CONTROL LAYERS · EACH SUFFICIENT ALONE · FAIL-CLOSED</text>
+  <rect x="60" y="106" width="380" height="2" fill="url(#lrule)"/>
+
+  <!-- request origin -->
+  <rect x="60" y="290" width="150" height="64" rx="10" fill="#0C1913" stroke="#2E4A3E" stroke-width="1.4"/>
+  <text x="85" y="317" font-size="13" font-weight="700" fill="#8FD8B4">AGENT</text>
+  <text x="85" y="336" font-size="11.5" fill="#93A89E">intended action</text>
+
+  <!-- L1..L4 -->
+  <g>
+    <rect x="260" y="160" width="190" height="320" rx="10" fill="#0E1620" stroke="#24313E" stroke-width="1.2"/>
+    <text x="282" y="196" font-size="13" font-weight="700" letter-spacing="1.5" fill="#4cb782">LAYER 1</text>
+    <text x="282" y="222" font-size="14" font-weight="700" fill="#F2F6F4">Capability</text>
+    <text x="282" y="240" font-size="14" font-weight="700" fill="#F2F6F4">Existence</text>
+    <text x="282" y="272" font-size="11.5" fill="#93A89E">A tool outside the</text>
+    <text x="282" y="289" font-size="11.5" fill="#93A89E">seat&#8217;s resolved policy</text>
+    <text x="282" y="306" font-size="11.5" fill="#93A89E">is never materialized.</text>
+    <text x="282" y="323" font-size="11.5" fill="#93A89E">It cannot be called</text>
+    <text x="282" y="340" font-size="11.5" fill="#93A89E">because it does not</text>
+    <text x="282" y="357" font-size="11.5" fill="#93A89E">exist for that seat.</text>
+    <text x="282" y="440" font-size="10.5" letter-spacing="1" fill="#5C7268">SCOPE: SESSION</text>
+    <text x="282" y="458" font-size="10.5" letter-spacing="1" fill="#5C7268">MODE: ALLOW-LIST</text>
+  </g>
+  <g>
+    <rect x="480" y="160" width="190" height="320" rx="10" fill="#0E1620" stroke="#24313E" stroke-width="1.2"/>
+    <text x="502" y="196" font-size="13" font-weight="700" letter-spacing="1.5" fill="#4cb782">LAYER 2</text>
+    <text x="502" y="222" font-size="14" font-weight="700" fill="#F2F6F4">In-Process</text>
+    <text x="502" y="240" font-size="14" font-weight="700" fill="#F2F6F4">Interception</text>
+    <text x="502" y="272" font-size="11.5" fill="#93A89E">A pre-execution hook</text>
+    <text x="502" y="289" font-size="11.5" fill="#93A89E">inside the runtime</text>
+    <text x="502" y="306" font-size="11.5" fill="#93A89E">evaluates every call</text>
+    <text x="502" y="323" font-size="11.5" fill="#93A89E">under every permission</text>
+    <text x="502" y="340" font-size="11.5" fill="#93A89E">mode. Denials return</text>
+    <text x="502" y="357" font-size="11.5" fill="#93A89E">reasoned verdicts.</text>
+    <text x="502" y="440" font-size="10.5" letter-spacing="1" fill="#5C7268">SCOPE: RUNTIME</text>
+    <text x="502" y="458" font-size="10.5" letter-spacing="1" fill="#5C7268">MODE: GUARD RULES</text>
+  </g>
+  <g>
+    <rect x="700" y="160" width="190" height="320" rx="10" fill="#0E1620" stroke="#24313E" stroke-width="1.2"/>
+    <text x="722" y="196" font-size="13" font-weight="700" letter-spacing="1.5" fill="#4cb782">LAYER 3</text>
+    <text x="722" y="222" font-size="14" font-weight="700" fill="#F2F6F4">Gateway</text>
+    <text x="722" y="240" font-size="14" font-weight="700" fill="#F2F6F4">Adjudication</text>
+    <text x="722" y="272" font-size="11.5" fill="#93A89E">The server re-derives</text>
+    <text x="722" y="289" font-size="11.5" fill="#93A89E">policy independently:</text>
+    <text x="722" y="306" font-size="11.5" fill="#93A89E">allow-list, argument</text>
+    <text x="722" y="323" font-size="11.5" fill="#93A89E">guards, identity claims.</text>
+    <text x="722" y="340" font-size="11.5" fill="#93A89E">Client state is never</text>
+    <text x="722" y="357" font-size="11.5" fill="#93A89E">trusted.</text>
+    <text x="722" y="440" font-size="10.5" letter-spacing="1" fill="#5C7268">SCOPE: SERVER</text>
+    <text x="722" y="458" font-size="10.5" letter-spacing="1" fill="#5C7268">MODE: RE-DERIVED</text>
+  </g>
+  <g>
+    <rect x="920" y="160" width="190" height="320" rx="10" fill="#0E1620" stroke="#24313E" stroke-width="1.2"/>
+    <text x="942" y="196" font-size="13" font-weight="700" letter-spacing="1.5" fill="#4cb782">LAYER 4</text>
+    <text x="942" y="222" font-size="14" font-weight="700" fill="#F2F6F4">Audit &amp;</text>
+    <text x="942" y="240" font-size="14" font-weight="700" fill="#F2F6F4">Provenance</text>
+    <text x="942" y="272" font-size="11.5" fill="#93A89E">Every adjudicated call</text>
+    <text x="942" y="289" font-size="11.5" fill="#93A89E">emits an immutable</text>
+    <text x="942" y="306" font-size="11.5" fill="#93A89E">audit row and a signed</text>
+    <text x="942" y="323" font-size="11.5" fill="#93A89E">provenance receipt,</text>
+    <text x="942" y="340" font-size="11.5" fill="#93A89E">joined to the exact</text>
+    <text x="942" y="357" font-size="11.5" fill="#93A89E">conversation turn.</text>
+    <text x="942" y="440" font-size="10.5" letter-spacing="1" fill="#5C7268">SCOPE: LEDGER</text>
+    <text x="942" y="458" font-size="10.5" letter-spacing="1" fill="#5C7268">MODE: EVIDENCE</text>
+  </g>
+
+  <!-- flow arrows -->
+  <g stroke="#4cb782" stroke-width="1.6">
+    <line x1="210" y1="322" x2="256" y2="322" marker-end="url(#larr)"/>
+    <line x1="450" y1="322" x2="476" y2="322" marker-end="url(#larr)"/>
+    <line x1="670" y1="322" x2="696" y2="322" marker-end="url(#larr)"/>
+    <line x1="890" y1="322" x2="916" y2="322" marker-end="url(#larr)"/>
+  </g>
+
+  <!-- receipt return path -->
+  <path d="M 1015 480 L 1015 540 L 135 540 L 135 358" stroke="#5C7268" stroke-width="1.4" stroke-dasharray="5 5" fill="none" marker-end="url(#rarr)"/>
+  <text x="470" y="562" font-size="11.5" letter-spacing="1.5" fill="#5C7268">PROVENANCE RECEIPT RETURNED TO THE CONVERSATION — RENDERED VERBATIM, NEVER SYNTHESIZED</text>
+</svg>
