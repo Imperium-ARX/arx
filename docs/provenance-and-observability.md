@@ -63,3 +63,7 @@ Evidence is designed to compose into explanations:
 - receipts pin what external systems reported at execution time.
 
 The standard this stack is built to: **every consequential output of the platform is reproducible and explainable after the fact.** Not "the model probably did X" — a record of X, with the conversation that caused it and the receipt it returned.
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

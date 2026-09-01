@@ -77,3 +77,7 @@ Governance is not only machine enforcement:
 - **No client-side-only enforcement.** Any control that exists only in the client is treated as advisory UX, not security.
 - **No trust in model self-report.** Receipts and audit rows are the record of what happened; the model's narration is commentary.
 - **No standing credentials in the model's reach.** The agent operates through the gateway's brokered execution; connection secrets never enter the model's context or the device's files.
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

@@ -55,3 +55,7 @@ Yes — deployment-specific security brief, data-processing terms, and customer-
 ### Who is behind ARX?
 
 [Imperium](https://imperium-growth.com). ARX is operated under a forward-deployed model: the engineers who build the platform are the engineers who deploy it.
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

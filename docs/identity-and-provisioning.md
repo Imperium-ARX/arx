@@ -69,3 +69,7 @@ Revoking a seat at the control plane:
 ## What this replaces
 
 For the buyer, the provisioning model substitutes for an entire internal rollout project: no SSO integration workshop, no permission-matrix spreadsheet, no "AI champion" training program, no configuration drift between employees. One appliance, provisioned centrally, identical in governance everywhere, personal in scope everywhere.
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

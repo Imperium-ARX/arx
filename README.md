@@ -10,9 +10,9 @@
   <img src="https://img.shields.io/badge/platforms-macOS%20%7C%20Windows-9FB4AA?style=flat-square&labelColor=0b1118" alt="Platforms">
 </p>
 
-# ARX
+# ARX — The Company AI Operating System
 
-**ARX is a company AI operating system: a governed, ontology-grounded agentic environment, deployed as a dedicated appliance for each customer company, that lets every department head operate their part of the business through conversation.**
+**ARX (Imperium ARX) is a company AI operating system: a governed, ontology-grounded agentic environment, deployed as a dedicated appliance for each customer company, that lets every department head operate their part of the business through conversation.** Built and operated by [Imperium](https://imperium-growth.com), ARX is the successor to the Imperium Operating System (Imperium OS), re-architected around an explicit organizational ontology, a layered action-governance stack, and per-company deployment.
 
 Most enterprise AI deployments are a chat window bolted onto a document store. ARX inverts that. It starts from the operating system — identity, files, documents, a managed browser, live connections to the company's real software — and puts a frontier reasoning core inside it, constrained by an explicit model of the organization and a layered governance stack that adjudicates every external action.
 
@@ -70,6 +70,18 @@ ARX is deployed to small and mid-sized companies (roughly 60–500 employees) wh
 
 ARX is delivered and operated by [Imperium](https://imperium-growth.com) under a forward-deployed model: the ontology and knowledge fabric are built with the customer, on site where needed, and evolve continuously as the company does. There is no self-serve tier; every deployment is provisioned, governed, and supported end to end.
 
+## Resources
+
+- **Website** — [imperium-growth.com](https://imperium-growth.com): Imperium, the company behind ARX
+- **Product** — [ARX — the company AI operating system](https://imperium-growth.com/arx): the buyer-facing overview of the platform documented here
+- **Blog** — [Imperium journal](https://imperium-growth.com/blog): essays on ontology, forward-deployed engineering, and enterprise AI deployment
+- **Evaluations & demos** — [request a demonstration](https://imperium-growth.com/#contact) of an ARX deployment
+- **Security contact** — [SECURITY.md](SECURITY.md)
+
+## Naming
+
+"ARX", "Imperium ARX", and "the Imperium Operating System" refer to the same platform lineage: ARX is the current product; Imperium OS is its predecessor name, still used in some earlier material. In these documents the platform is called ARX throughout.
+
 ---
 
 ## About this repository
@@ -78,4 +90,4 @@ ARX is delivered and operated by [Imperium](https://imperium-growth.com) under a
 - **What it is not** — a source-code repository, an implementation guide, or an exhaustive internal design document. Contracts and invariants are documented; mechanisms are not.
 - **Reporting a security concern** — see [SECURITY.md](SECURITY.md).
 
-<sub>© Imperium. All rights reserved. This documentation is provided for evaluation purposes. ARX and the ARX mark are properties of Imperium. Documentation version 2026.09.</sub>
+<sub>© Imperium. All rights reserved. This documentation is provided for evaluation purposes. ARX, Imperium ARX, Imperium OS, and the ARX mark are properties of Imperium. Documentation version 2026.09.</sub>

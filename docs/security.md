@@ -94,3 +94,7 @@ Captured conversations and audit rows carry seat attribution. Where the transpor
 ## Engagement with security teams
 
 Customer security teams receive a deployment-specific security brief, the current data-processing terms, and a direct escalation channel. We support customer-led security review of a deployment under NDA — including walking through any control in this document against its implementation. Findings from external researchers go through [coordinated disclosure](../SECURITY.md).
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

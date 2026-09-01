@@ -70,3 +70,7 @@ The ontology is **curated, not crawled**. This is a deliberate rejection of the 
 - **Versioned and auditable.** Every ontology revision is attributable and reversible.
 - **Small by design.** The ontology models what the company needs to reason about, not everything it could. A 300-object ontology that is accurate beats a 30,000-object one that is stale — accuracy is the product.
 - **Private per company.** There is no cross-customer ontology, no shared embedding space, no federated learning across deployments. One company's model of itself is not an input to anyone else's.
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

@@ -45,3 +45,7 @@
 **What does the model provider see?** Inference traffic under the deployment's model-provisioning terms. Customer data is not training input.
 
 **What happens to conversation capture if we end the contract?** It follows the retention schedule in your deployment terms, like every evidence stream.
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

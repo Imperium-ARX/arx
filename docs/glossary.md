@@ -34,3 +34,7 @@
 | **Seat Token** | The per-seat credential carrying row-level identity claims, held exclusively in OS secret storage. |
 | **Secure Exchange** | The audited seat-to-seat sharing channel: envelope-addressed, recipient-accepted, size-bounded, content-sanitized. |
 | **Taxonomy** | The company's controlled vocabulary, used for artifact classification, query expansion, and per-seat disambiguation. |
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

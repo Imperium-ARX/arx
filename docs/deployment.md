@@ -54,3 +54,7 @@ Policy, branding, and capability changes travel outside the binary channel entir
 | Customer-side infrastructure | None to operate; the customer-resident data plane is provisioned and managed as part of the engagement |
 | Network | Standard outbound TLS |
 | Model access | Provisioned per deployment as part of the engagement |
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

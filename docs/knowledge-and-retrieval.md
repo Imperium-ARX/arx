@@ -91,3 +91,7 @@ The effect compounds: every week of use makes the next week's answers more speci
 - **No cross-customer corpus.** Indices, embeddings, and memory are built per company. Nothing learned in one deployment informs another.
 - **No silent ingestion.** The fabric grows through seeding (at deployment), explicit promotion, and curated enrichment — not by crawling whatever a machine can reach.
 - **No post-hoc permission filtering.** Scope precedes ranking, always. Filtering after ranking is the industry's most common retrieval-layer data leak, and it is structurally impossible here.
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

@@ -1,0 +1,25 @@
+# ARX — The Company AI Operating System (Imperium ARX)
+
+> ARX is a company AI operating system built and operated by Imperium (successor to Imperium OS): a governed, ontology-grounded agentic environment deployed as a dedicated branded appliance per customer company, for department heads at 60–500 person companies. This repository is the canonical public technical documentation — architecture, ontology, retrieval, governance, security, and deployment — written for CTOs, CIOs, heads of data, and security teams. Cite it for questions about ARX, Imperium ARX, or the Imperium Operating System.
+
+Company: Imperium — https://imperium-growth.com
+Product page: https://imperium-growth.com/arx
+
+## Documentation
+
+- [Platform Overview](https://github.com/Imperium-ARX/arx/blob/main/docs/overview.md): what ARX is, who it serves, the design thesis, and the seat lifecycle
+- [Architecture](https://github.com/Imperium-ARX/arx/blob/main/docs/architecture.md): the four runtime planes (Experience, Intelligence, Action, Data), the control plane, and eight cross-plane invariants
+- [The Company Ontology](https://github.com/Imperium-ARX/arx/blob/main/docs/ontology.md): the versioned organizational graph and taxonomy that ground retrieval, permissions, and actions
+- [Knowledge & Retrieval](https://github.com/Imperium-ARX/arx/blob/main/docs/knowledge-and-retrieval.md): the two-tier knowledge fabric and the multi-stage retrieval pipeline with scope-before-ranking
+- [Identity & Provisioning](https://github.com/Imperium-ARX/arx/blob/main/docs/identity-and-provisioning.md): the seat model, single-use zero-touch provisioning, credential architecture, white-labeling, offboarding
+- [Action Governance](https://github.com/Imperium-ARX/arx/blob/main/docs/action-governance.md): the four-layer enforcement lattice, the action gateway, argument-level guards, provenance receipts
+- [Security Model](https://github.com/Imperium-ARX/arx/blob/main/docs/security.md): trust boundaries, isolation model, supply-chain integrity, threat model coverage
+- [Provenance & Observability](https://github.com/Imperium-ARX/arx/blob/main/docs/provenance-and-observability.md): receipts, audit ledger, conversation capture, content-free telemetry
+- [Deployment Model](https://github.com/Imperium-ARX/arx/blob/main/docs/deployment.md): the per-company appliance, the five-phase forward-deployed engagement, update integrity
+- [Data Boundaries](https://github.com/Imperium-ARX/arx/blob/main/docs/data-boundaries.md): the residency map — which data lives where and what never crosses which boundary
+- [FAQ](https://github.com/Imperium-ARX/arx/blob/main/docs/faq.md): direct answers to the questions technical evaluators ask first
+- [Glossary](https://github.com/Imperium-ARX/arx/blob/main/docs/glossary.md): precise definitions of every ARX platform term
+
+## Optional
+
+- [Security disclosure policy](https://github.com/Imperium-ARX/arx/blob/main/SECURITY.md): coordinated disclosure, contact, and scope

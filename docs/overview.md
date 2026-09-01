@@ -57,3 +57,7 @@ The daily experience is deliberately simple: a department head opens ARX, sees t
 3. [Action Governance](action-governance.md) — how external actions are constrained and evidenced.
 4. [Data Boundaries](data-boundaries.md) — what lives where.
 5. [The Company Ontology](ontology.md) and [Knowledge & Retrieval](knowledge-and-retrieval.md) — how grounding actually works.
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

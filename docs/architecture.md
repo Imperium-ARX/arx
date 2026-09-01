@@ -122,3 +122,7 @@ These hold across the platform and are the properties evaluators should test us 
 | 6 | No update or engine artifact executes without passing cryptographic verification against a pinned digest. |
 | 7 | The model cannot write to platform binaries or the engine cache under any permission mode. |
 | 8 | Conversation capture and telemetry are disclosed, contractual, and content-scoped by design — see [Provenance & Observability](provenance-and-observability.md). |
+
+---
+
+<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>
