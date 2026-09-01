@@ -4,7 +4,8 @@ description: >-
   Platform documentation for ARX (Imperium ARX), the company AI operating system
   by Imperium and successor to Imperium OS: architecture, organizational ontology,
   multi-stage retrieval, action governance, security model, and per-company
-  deployment. Written for CTOs, CIOs, heads of data, and security teams.
+  deployment. Published as an open reference for anyone designing, building,
+  or evaluating a company AI system.
 url: "https://imperium-arx.github.io"
 baseurl: "/arx"
 lang: en

@@ -1,6 +1,6 @@
 # ARX Documentation Index
 
-The public technical documentation for **ARX (Imperium ARX), the company AI operating system by [Imperium](https://imperium-growth.com)**. Start with the [Platform Overview](overview.md) if you are new; start with [Architecture](architecture.md) and the [Security Model](security.md) if you are evaluating.
+The public technical documentation for **ARX (Imperium ARX), the company AI operating system by [Imperium](https://www.imperiumos.ai)**. Start with the [Platform Overview](overview.md) if you are new; start with [Architecture](architecture.md) and the [Security Model](security.md) if you are evaluating.
 
 ## By reading path
 
@@ -25,9 +25,9 @@ The public technical documentation for **ARX (Imperium ARX), the company AI oper
 
 **Reference**
 
-11. [FAQ](faq.md) — the questions technical evaluators ask first
+11. [FAQ](faq.md) — the questions technical readers ask first
 12. [Glossary](glossary.md) — precise definitions of every ARX term
 
 ---
 
-<sub>[Documentation home](../README.md) · [Security policy](../SECURITY.md) · [imperium-growth.com](https://imperium-growth.com)</sub>
+<sub>[Documentation home](../README.md) · [Security policy](../SECURITY.md) · [www.imperiumos.ai](https://www.imperiumos.ai)</sub>

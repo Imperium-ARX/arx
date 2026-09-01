@@ -1,7 +1,6 @@
 # Platform Overview
 
-> **Audience:** technical evaluators — CTOs, CIOs, heads of data, security teams.
-> **Scope:** what ARX is, the design thesis behind it, and how the pieces relate. For contracts and invariants, see [Architecture](architecture.md).
+> **Scope:** what ARX is, the design thesis behind it, and how the pieces relate. Published as an open reference for anyone designing, building, or evaluating a company AI system. For contracts and invariants, see [Architecture](architecture.md).
 
 ---
 
@@ -50,7 +49,7 @@ The daily experience is deliberately simple: a department head opens ARX, sees t
 - **Not multi-tenant SaaS.** Each company receives a dedicated appliance and a customer-resident data plane. See [Data Boundaries](data-boundaries.md).
 - **Not self-serve.** ARX without the forward-deployed engagement would be ARX without its grounding. We do not offer it.
 
-## Reading order for evaluators
+## Suggested reading order
 
 1. [Architecture](architecture.md) — the planes and the invariants between them.
 2. [Security Model](security.md) — trust boundaries and threat model.
@@ -60,4 +59,4 @@ The daily experience is deliberately simple: a department head opens ARX, sees t
 
 ---
 
-<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>
+<sub><b>ARX — the Company AI Operating System by <a href="https://www.imperiumos.ai">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

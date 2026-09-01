@@ -1,111 +1,54 @@
-<svg width="1180" height="760" viewBox="0 0 1180 760" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica Neue, Arial, sans-serif">
-  <defs>
-    <linearGradient id="abg" x1="0" y1="0" x2="1180" y2="760" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#070B10"/>
-      <stop offset="1" stop-color="#0A1015"/>
-    </linearGradient>
-    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#4cb782" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#4cb782"/>
-      <stop offset="1" stop-color="#4cb782" stop-opacity="0"/>
-    </linearGradient>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4cb782"/>
-    </marker>
-  </defs>
+<svg width="1180" height="560" viewBox="0 0 1180 560" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica Neue, Arial, sans-serif">
+  <rect width="1180" height="560" fill="#0A0D11"/>
 
-  <rect width="1180" height="760" fill="url(#abg)"/>
-  <text x="60" y="64" font-size="26" font-weight="700" letter-spacing="3" fill="#F2F6F4">ARX PLATFORM ARCHITECTURE</text>
-  <text x="60" y="92" font-size="14" letter-spacing="1.5" fill="#7E948A">FOUR RUNTIME PLANES · ONE CONTROL PLANE · DEPLOYED AS A SINGLE GOVERNED APPLIANCE PER COMPANY</text>
-  <rect x="60" y="106" width="380" height="2" fill="url(#mint)"/>
+  <text x="70" y="66" font-size="21" font-weight="600" fill="#F4F7F5">ARX platform architecture</text>
+  <text x="70" y="92" font-size="13.5" fill="#7C8B83">Four runtime planes and an operator control plane, deployed as one governed appliance per company.</text>
 
-  <!-- EXPERIENCE PLANE -->
+  <!-- runtime planes -->
   <g>
-    <rect x="60" y="140" width="800" height="110" rx="10" fill="#0E1620" stroke="#24313E" stroke-width="1.2"/>
-    <rect x="60" y="140" width="4" height="110" rx="2" fill="#4cb782"/>
-    <text x="88" y="172" font-size="15" font-weight="700" letter-spacing="2" fill="#F2F6F4">EXPERIENCE PLANE</text>
-    <text x="88" y="194" font-size="12.5" fill="#93A89E">Chat-native desktop workspace · document surfaces · embedded command dashboard · zero developer chrome</text>
-    <g font-size="11.5" fill="#C6D6CE">
-      <rect x="88" y="206" width="150" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="102" y="224">Conversational UI</text>
-      <rect x="248" y="206" width="150" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="262" y="224">Document Studio</text>
-      <rect x="408" y="206" width="170" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="422" y="224">Command Dashboard</text>
-      <rect x="588" y="206" width="150" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="602" y="224">Managed Browser</text>
-    </g>
+    <rect x="70" y="128" width="740" height="1" fill="#232B32"/>
+    <rect x="70" y="128" width="3" height="88" fill="#4cb782"/>
+    <text x="94" y="162" font-size="16" font-weight="600" fill="#F4F7F5">Experience</text>
+    <text x="94" y="186" font-size="13" fill="#94A39B">Chat-native workspace, documents, command dashboard, managed browser.</text>
+    <text x="786" y="162" text-anchor="end" font-size="12" fill="#5F6E66">no developer chrome</text>
   </g>
-
-  <!-- INTELLIGENCE PLANE -->
   <g>
-    <rect x="60" y="280" width="800" height="130" rx="10" fill="#0E1620" stroke="#24313E" stroke-width="1.2"/>
-    <rect x="60" y="280" width="4" height="130" rx="2" fill="#4cb782"/>
-    <text x="88" y="312" font-size="15" font-weight="700" letter-spacing="2" fill="#F2F6F4">INTELLIGENCE PLANE</text>
-    <text x="88" y="334" font-size="12.5" fill="#93A89E">Frontier reasoning core · organizational ontology · multi-stage retrieval · durable institutional memory</text>
-    <g font-size="11.5" fill="#C6D6CE">
-      <rect x="88" y="348" width="160" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="102" y="366">Reasoning Core</text>
-      <rect x="258" y="348" width="170" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="272" y="366">Company Ontology</text>
-      <rect x="438" y="348" width="190" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="452" y="366">Multi-Stage Retrieval</text>
-      <rect x="638" y="348" width="180" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="652" y="366">Institutional Memory</text>
-    </g>
+    <rect x="70" y="228" width="740" height="1" fill="#232B32"/>
+    <rect x="70" y="228" width="3" height="88" fill="#4cb782"/>
+    <text x="94" y="262" font-size="16" font-weight="600" fill="#F4F7F5">Intelligence</text>
+    <text x="94" y="286" font-size="13" fill="#94A39B">Frontier reasoning core, company ontology, multi-stage retrieval, institutional memory.</text>
+    <text x="786" y="262" text-anchor="end" font-size="12" fill="#5F6E66">grounded, seat-scoped</text>
   </g>
-
-  <!-- ACTION PLANE -->
   <g>
-    <rect x="60" y="440" width="800" height="130" rx="10" fill="#0E1620" stroke="#24313E" stroke-width="1.2"/>
-    <rect x="60" y="440" width="4" height="130" rx="2" fill="#4cb782"/>
-    <text x="88" y="472" font-size="15" font-weight="700" letter-spacing="2" fill="#F2F6F4">ACTION PLANE</text>
-    <text x="88" y="494" font-size="12.5" fill="#93A89E">Governed tool execution · four independent enforcement layers · per-action provenance receipts</text>
-    <g font-size="11.5" fill="#C6D6CE">
-      <rect x="88" y="508" width="170" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="102" y="526">Capability Registry</text>
-      <rect x="268" y="508" width="190" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="282" y="526">Enforcement Lattice</text>
-      <rect x="468" y="508" width="180" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="482" y="526">Action Gateway</text>
-      <rect x="658" y="508" width="180" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="672" y="526">Provenance Receipts</text>
-    </g>
+    <rect x="70" y="328" width="740" height="1" fill="#232B32"/>
+    <rect x="70" y="328" width="3" height="88" fill="#4cb782"/>
+    <text x="94" y="362" font-size="16" font-weight="600" fill="#F4F7F5">Action</text>
+    <text x="94" y="386" font-size="13" fill="#94A39B">Governed execution against business systems: four enforcement layers, provenance receipts.</text>
+    <text x="786" y="362" text-anchor="end" font-size="12" fill="#5F6E66">fail-closed, receipted</text>
   </g>
-
-  <!-- DATA PLANE -->
   <g>
-    <rect x="60" y="600" width="800" height="110" rx="10" fill="#0E1620" stroke="#24313E" stroke-width="1.2"/>
-    <rect x="60" y="600" width="4" height="110" rx="2" fill="#4cb782"/>
-    <text x="88" y="632" font-size="15" font-weight="700" letter-spacing="2" fill="#F2F6F4">DATA PLANE — CUSTOMER-RESIDENT</text>
-    <text x="88" y="654" font-size="12.5" fill="#93A89E">Two-tier knowledge fabric · row-level isolation per seat · append-only shared knowledge · encrypted replication</text>
-    <g font-size="11.5" fill="#C6D6CE">
-      <rect x="88" y="666" width="170" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="102" y="684">Personal Knowledge</text>
-      <rect x="268" y="666" width="180" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="282" y="684">Company Knowledge</text>
-      <rect x="458" y="666" width="160" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="472" y="684">Secure Exchange</text>
-      <rect x="628" y="666" width="180" height="28" rx="6" fill="#121C27" stroke="#2A3946"/><text x="642" y="684">Versioned Replication</text>
-    </g>
+    <rect x="70" y="428" width="740" height="1" fill="#232B32"/>
+    <rect x="70" y="428" width="3" height="88" fill="#4cb782"/>
+    <text x="94" y="462" font-size="16" font-weight="600" fill="#F4F7F5">Data</text>
+    <text x="94" y="486" font-size="13" fill="#94A39B">Two-tier knowledge fabric, row-level seat isolation, append-only shared knowledge.</text>
+    <text x="786" y="462" text-anchor="end" font-size="12" fill="#5F6E66">customer-resident</text>
   </g>
+  <rect x="70" y="516" width="740" height="1" fill="#232B32"/>
 
-  <!-- CONTROL PLANE (side rail) -->
+  <!-- control plane rail -->
   <g>
-    <rect x="900" y="140" width="220" height="570" rx="10" fill="#0C1913" stroke="#2E4A3E" stroke-width="1.2"/>
-    <text x="922" y="176" font-size="14" font-weight="700" letter-spacing="2" fill="#8FD8B4">CONTROL PLANE</text>
-    <text x="922" y="196" font-size="11.5" fill="#7E948A">Imperium-operated</text>
-    <g font-size="11.5" fill="#C6D6CE">
-      <rect x="922" y="216" width="176" height="30" rx="6" fill="#0F231A" stroke="#2E4A3E"/><text x="936" y="235">Seat Provisioning</text>
-      <rect x="922" y="256" width="176" height="30" rx="6" fill="#0F231A" stroke="#2E4A3E"/><text x="936" y="275">Identity &amp; Policy</text>
-      <rect x="922" y="296" width="176" height="30" rx="6" fill="#0F231A" stroke="#2E4A3E"/><text x="936" y="315">Fleet Telemetry</text>
-      <rect x="922" y="336" width="176" height="30" rx="6" fill="#0F231A" stroke="#2E4A3E"/><text x="936" y="355">Brand &amp; Theme</text>
-      <rect x="922" y="376" width="176" height="30" rx="6" fill="#0F231A" stroke="#2E4A3E"/><text x="936" y="395">Signed Updates</text>
-      <rect x="922" y="416" width="176" height="30" rx="6" fill="#0F231A" stroke="#2E4A3E"/><text x="936" y="435">Capability Policy</text>
-      <rect x="922" y="456" width="176" height="30" rx="6" fill="#0F231A" stroke="#2E4A3E"/><text x="936" y="475">Audit &amp; Oversight</text>
-    </g>
-    <text x="922" y="530" font-size="11" fill="#5C7268">Policy flows down.</text>
-    <text x="922" y="548" font-size="11" fill="#5C7268">Evidence flows up.</text>
-    <text x="922" y="566" font-size="11" fill="#5C7268">Customer content</text>
-    <text x="922" y="584" font-size="11" fill="#5C7268">never leaves the</text>
-    <text x="922" y="602" font-size="11" fill="#5C7268">data plane.</text>
-  </g>
-
-  <!-- vertical flow arrows -->
-  <g stroke="#4cb782" stroke-width="1.6">
-    <line x1="460" y1="250" x2="460" y2="278" marker-end="url(#arr)"/>
-    <line x1="460" y1="410" x2="460" y2="438" marker-end="url(#arr)"/>
-    <line x1="460" y1="570" x2="460" y2="598" marker-end="url(#arr)"/>
-  </g>
-  <g stroke="#2E4A3E" stroke-width="1.4" stroke-dasharray="4 4">
-    <line x1="860" y1="195" x2="898" y2="195"/>
-    <line x1="860" y1="345" x2="898" y2="345"/>
-    <line x1="860" y1="505" x2="898" y2="505"/>
-    <line x1="860" y1="655" x2="898" y2="655"/>
+    <rect x="862" y="128" width="1" height="388" fill="#232B32"/>
+    <text x="896" y="162" font-size="16" font-weight="600" fill="#F4F7F5">Control</text>
+    <text x="896" y="186" font-size="13" fill="#94A39B">Operated by Imperium.</text>
+    <text x="896" y="228" font-size="13" fill="#94A39B">Provisioning and identity</text>
+    <text x="896" y="254" font-size="13" fill="#94A39B">Capability policy</text>
+    <text x="896" y="280" font-size="13" fill="#94A39B">Brand and theme</text>
+    <text x="896" y="306" font-size="13" fill="#94A39B">Signed updates</text>
+    <text x="896" y="332" font-size="13" fill="#94A39B">Fleet telemetry</text>
+    <text x="896" y="358" font-size="13" fill="#94A39B">Audit and oversight</text>
+    <text x="896" y="424" font-size="12.5" fill="#5F6E66">Policy flows down.</text>
+    <text x="896" y="446" font-size="12.5" fill="#5F6E66">Evidence flows up.</text>
+    <text x="896" y="468" font-size="12.5" fill="#5F6E66">Customer content never</text>
+    <text x="896" y="490" font-size="12.5" fill="#5F6E66">transits the control plane.</text>
   </g>
 </svg>

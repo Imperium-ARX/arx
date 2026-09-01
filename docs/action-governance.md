@@ -6,7 +6,7 @@
 
 ## The problem, stated precisely
 
-An agentic AI connected to business software is an actor with credentials. The question a CTO must be able to answer is not "does it usually behave?" but:
+An agentic AI connected to business software is an actor with credentials. The question a company must be able to answer is not "does it usually behave?" but:
 
 1. What is the **complete set** of operations this seat's agent can perform?
 2. For each operation, what **arguments** will be accepted?
@@ -80,4 +80,4 @@ Governance is not only machine enforcement:
 
 ---
 
-<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>
+<sub><b>ARX — the Company AI Operating System by <a href="https://www.imperiumos.ai">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

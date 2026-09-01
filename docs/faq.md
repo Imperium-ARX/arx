@@ -1,6 +1,6 @@
-# FAQ — Technical Evaluators
+# FAQ
 
-> The questions CTOs, CIOs, heads of data, and security leads ask first, answered directly. Where an answer has depth behind it, the link goes to the canonical document.
+> The questions technical readers ask first, answered directly. Where an answer has depth behind it, the link goes to the canonical document.
 
 ---
 
@@ -54,8 +54,8 @@ Yes — deployment-specific security brief, data-processing terms, and customer-
 
 ### Who is behind ARX?
 
-[Imperium](https://imperium-growth.com). ARX is operated under a forward-deployed model: the engineers who build the platform are the engineers who deploy it.
+[Imperium](https://www.imperiumos.ai). ARX is operated under a forward-deployed model: the engineers who build the platform are the engineers who deploy it.
 
 ---
 
-<sub><b>ARX — the Company AI Operating System by <a href="https://imperium-growth.com">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>
+<sub><b>ARX — the Company AI Operating System by <a href="https://www.imperiumos.ai">Imperium</a>.</b> <a href="README.md">Documentation index</a> · <a href="overview.md">Overview</a> · <a href="architecture.md">Architecture</a> · <a href="security.md">Security</a> · <a href="faq.md">FAQ</a> · <a href="glossary.md">Glossary</a> · <a href="https://github.com/Imperium-ARX/arx">github.com/Imperium-ARX/arx</a></sub>

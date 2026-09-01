@@ -2,23 +2,19 @@
   <img src="assets/arx-banner.svg" alt="ARX — The Company AI Operating System" width="100%" />
 </p>
 
-<p align="center">
-  <a href="docs/architecture.md"><img src="https://img.shields.io/badge/architecture-four%20planes-4cb782?style=flat-square&labelColor=0b1118" alt="Architecture"></a>
-  <a href="docs/security.md"><img src="https://img.shields.io/badge/security-defense%20in%20depth-4cb782?style=flat-square&labelColor=0b1118" alt="Security"></a>
-  <a href="docs/ontology.md"><img src="https://img.shields.io/badge/ontology-organizational%20graph-4cb782?style=flat-square&labelColor=0b1118" alt="Ontology"></a>
-  <a href="docs/deployment.md"><img src="https://img.shields.io/badge/deployment-per--company%20appliance-4cb782?style=flat-square&labelColor=0b1118" alt="Deployment"></a>
-  <img src="https://img.shields.io/badge/platforms-macOS%20%7C%20Windows-9FB4AA?style=flat-square&labelColor=0b1118" alt="Platforms">
-</p>
-
 # ARX — The Company AI Operating System
 
-**ARX (Imperium ARX) is a company AI operating system: a governed, ontology-grounded agentic environment, deployed as a dedicated appliance for each customer company, that lets every department head operate their part of the business through conversation.** Built and operated by [Imperium](https://imperium-growth.com), ARX is the successor to the Imperium Operating System (Imperium OS), re-architected around an explicit organizational ontology, a layered action-governance stack, and per-company deployment.
+**ARX (Imperium ARX) is a company AI operating system: a governed, ontology-grounded agentic environment, deployed as a dedicated appliance for each customer company, that lets every department head operate their part of the business through conversation.** Built and operated by [Imperium](https://www.imperiumos.ai), ARX is the successor to the Imperium Operating System (Imperium OS), re-architected around an explicit organizational ontology, a layered action-governance stack, and per-company deployment.
 
 Most enterprise AI deployments are a chat window bolted onto a document store. ARX inverts that. It starts from the operating system — identity, files, documents, a managed browser, live connections to the company's real software — and puts a frontier reasoning core inside it, constrained by an explicit model of the organization and a layered governance stack that adjudicates every external action.
 
 The result is an assistant that knows who it is speaking to, what that person is responsible for, what the company knows, and what it is — and is not — allowed to do on their behalf. Every action it takes is attributable, auditable, and receipted.
 
-This repository is the public technical documentation for ARX. It is written for CTOs, CIOs, heads of data, and security teams evaluating the platform. It describes the platform's architecture and guarantees at the level of contracts and invariants; it deliberately does not describe implementation internals.
+This repository is the public technical documentation for ARX. It describes the platform's architecture and guarantees at the level of contracts and invariants; it deliberately does not describe implementation internals.
+
+## Why this documentation is public
+
+We publish the ARX reference openly, as a free resource. Any company can read it as a blueprint for the problems a real company AI operating system has to solve — grounding, identity, governance, data boundaries, provenance — whether they intend to build their own or evaluate someone else's. The clearest way to explain what ARX is turns out to be showing the full shape of the problem. If you read it and decide you would rather not build all of this yourself, that is the business we are in.
 
 ---
 
@@ -50,7 +46,7 @@ This repository is the public technical documentation for ARX. It is written for
 | [Security Model](docs/security.md) | Trust boundaries, tenant isolation, supply-chain integrity, threat model |
 | [Deployment Model](docs/deployment.md) | The per-company appliance, update integrity, and operational lifecycle |
 | [Data Boundaries](docs/data-boundaries.md) | Exactly which data lives where, and what never crosses which boundary |
-| [FAQ](docs/faq.md) | The questions technical evaluators ask first |
+| [FAQ](docs/faq.md) | The questions technical readers ask first |
 | [Glossary](docs/glossary.md) | Precise definitions of every ARX term used in these documents |
 
 ## Design principles
@@ -68,14 +64,14 @@ ARX is deployed to small and mid-sized companies (roughly 60–500 employees) wh
 
 ## Engagement model
 
-ARX is delivered and operated by [Imperium](https://imperium-growth.com) under a forward-deployed model: the ontology and knowledge fabric are built with the customer, on site where needed, and evolve continuously as the company does. There is no self-serve tier; every deployment is provisioned, governed, and supported end to end.
+ARX is delivered and operated by [Imperium](https://www.imperiumos.ai) under a forward-deployed model: the ontology and knowledge fabric are built with the customer, on site where needed, and evolve continuously as the company does. There is no self-serve tier; every deployment is provisioned, governed, and supported end to end.
 
 ## Resources
 
-- **Website** — [imperium-growth.com](https://imperium-growth.com): Imperium, the company behind ARX
-- **Product** — [ARX — the company AI operating system](https://imperium-growth.com/arx): the buyer-facing overview of the platform documented here
-- **Blog** — [Imperium journal](https://imperium-growth.com/blog): essays on ontology, forward-deployed engineering, and enterprise AI deployment
-- **Evaluations & demos** — [request a demonstration](https://imperium-growth.com/#contact) of an ARX deployment
+- **Website** — [www.imperiumos.ai](https://www.imperiumos.ai): Imperium, the company behind ARX
+- **Product** — [ARX — the company AI operating system](https://www.imperiumos.ai/arx): the buyer-facing overview of the platform documented here
+- **Blog** — [Imperium journal](https://www.imperiumos.ai/blog): essays on ontology, forward-deployed engineering, and enterprise AI deployment
+- **Evaluations & demos** — [request a demonstration](https://www.imperiumos.ai) of an ARX deployment
 - **Security contact** — [SECURITY.md](SECURITY.md)
 
 ## Naming
