@@ -17,34 +17,12 @@ ARX is built on four assumptions that shape everything below:
 
 ## Trust boundaries
 
-```mermaid
-flowchart LR
-    subgraph DEVICE["Employee device"]
-        UI["Experience plane"]
-        RT["Runtime + interception layer"]
-        MODEL["Reasoning core<br/>(untrusted actor)"]
-    end
-    GW["Action gateway<br/>(policy re-derivation)"]
-    DP["Customer data plane<br/>(row-level isolation)"]
-    CP["Control plane<br/>(policy · updates · evidence)"]
-    EXT["External business systems"]
-
-    MODEL -->|"every call intercepted"| RT
-    RT -->|"bearer identity"| GW
-    GW -->|"brokered, guarded"| EXT
-    RT -->|"seat-scoped claims"| DP
-    CP -->|"signed policy & updates"| DEVICE
-    DEVICE -->|"telemetry & audit evidence"| CP
-
-    style DEVICE fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style MODEL fill:#1a1220,stroke:#8a5c9e,color:#f2f6f4
-    style GW fill:#0c1913,stroke:#4cb782,color:#f2f6f4
-    style DP fill:#0c1913,stroke:#2e4a3e,color:#f2f6f4
-    style CP fill:#0c1913,stroke:#2e4a3e,color:#f2f6f4
-    style EXT fill:#121c27,stroke:#2a3946,color:#c6d6ce
-    style UI fill:#121c27,stroke:#2a3946,color:#c6d6ce
-    style RT fill:#121c27,stroke:#2a3946,color:#c6d6ce
-```
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/security-flow-dark.svg">
+  <img src="../assets/security-flow.svg" alt="The security flow: every model call intercepted on the employee device, adjudicated at the action gateway, seat-scoped claims to the data plane, signed policy down from the control plane and audit evidence back up" width="100%">
+</picture>
+</p>
 
 ## Isolation model
 

@@ -22,22 +22,12 @@ Policies bind to seats, not people. When a role changes hands, the policy surviv
 
 ARX inverts the usual enterprise onboarding: all configuration happens *before* the employee's first launch, on the operator side.
 
-```mermaid
-sequenceDiagram
-    participant OP as Imperium Control Plane
-    participant EMP as Employee
-    participant APP as ARX Appliance
-    participant DP as Customer Data Plane
-
-    Note over OP: Deployment already modeled:<br/>ontology · knowledge seed · policy · branding
-    OP->>EMP: Single-use provisioning credential
-    EMP->>APP: Install company build, redeem credential
-    APP->>OP: Redeem (validated, one-shot)
-    OP-->>APP: Identity payload · capability policy ·<br/>branding · scoped data-plane credentials
-    APP->>APP: Materialize workspace<br/>(identity, department context, theme)
-    APP->>DP: Establish seat-scoped session (row-level claims)
-    Note over EMP,APP: Employee lands in a workspace that<br/>already knows who they are
-```
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/provisioning-sequence-dark.svg">
+  <img src="../assets/provisioning-sequence.svg" alt="The provisioning sequence: control plane, employee, ARX appliance and data plane exchanging a single-use credential, identity, policy and a seat-scoped session" width="100%">
+</picture>
+</p>
 
 Properties of the flow:
 

@@ -21,7 +21,10 @@ We publish the ARX reference openly, as a free resource. Any company can read it
 ## Platform at a glance
 
 <p align="center">
-  <img src="assets/arx-architecture.svg" alt="ARX platform architecture — four runtime planes and a control plane" width="100%" />
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arx-planes-dark.svg">
+  <img src="assets/arx-planes.svg" alt="ARX platform architecture: four runtime planes stacked, experience, intelligence, action, data, with the operator control plane beside them" width="100%">
+</picture>
 </p>
 
 | Plane | Responsibility | Key property |

@@ -16,7 +16,10 @@ An agentic AI connected to business software is an actor with credentials. The q
 ARX is built so all four questions have mechanical answers.
 
 <p align="center">
-  <img src="../assets/arx-enforcement-lattice.svg" alt="The four-layer enforcement lattice" width="100%" />
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/enforcement-lattice-dark.svg">
+  <img src="../assets/enforcement-lattice.svg" alt="The four-layer enforcement lattice: capability existence, in-process interception, gateway adjudication, audit and provenance" width="100%">
+</picture>
 </p>
 
 ## Layer 1 — Capability existence

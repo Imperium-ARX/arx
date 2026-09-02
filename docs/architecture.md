@@ -8,51 +8,12 @@
 
 ARX is organized as four runtime planes plus an operator control plane. The separation is not cosmetic: each plane has its own trust level, its own data residency, and its own failure posture.
 
-```mermaid
-flowchart TB
-    subgraph APPLIANCE["Per-company appliance (each seat)"]
-        direction TB
-        EXP["<b>Experience Plane</b><br/>conversation · documents · dashboard · managed browser"]
-        INT["<b>Intelligence Plane</b><br/>reasoning core · ontology · retrieval · memory"]
-        ACT["<b>Action Plane</b><br/>capability registry · enforcement lattice · receipts"]
-        EXP --> INT --> ACT
-    end
-
-    subgraph DATA["Customer-resident Data Plane"]
-        PK["Personal knowledge<br/>(per seat, isolated)"]
-        CK["Company knowledge<br/>(append-only, shared)"]
-        EX["Secure exchange<br/>(seat-to-seat)"]
-    end
-
-    subgraph CTRL["Imperium Control Plane"]
-        PROV["Provisioning & identity"]
-        POL["Policy & capability distribution"]
-        UPD["Signed update channel"]
-        TEL["Fleet telemetry & audit"]
-    end
-
-    ACT -- "adjudicated calls" --> GW["Action Gateway"]
-    GW -- "governed execution" --> EXTSYS["Customer business systems"]
-    INT <--> DATA
-    CTRL -- "policy flows down" --> APPLIANCE
-    APPLIANCE -- "evidence flows up" --> CTRL
-
-    style APPLIANCE fill:#0e1620,stroke:#4cb782,color:#f2f6f4
-    style DATA fill:#0c1913,stroke:#2e4a3e,color:#f2f6f4
-    style CTRL fill:#0c1913,stroke:#2e4a3e,color:#f2f6f4
-    style GW fill:#121c27,stroke:#4cb782,color:#f2f6f4
-    style EXTSYS fill:#121c27,stroke:#2a3946,color:#c6d6ce
-    style EXP fill:#121c27,stroke:#2a3946,color:#f2f6f4
-    style INT fill:#121c27,stroke:#2a3946,color:#f2f6f4
-    style ACT fill:#121c27,stroke:#2a3946,color:#f2f6f4
-    style PK fill:#0f231a,stroke:#2e4a3e,color:#c6d6ce
-    style CK fill:#0f231a,stroke:#2e4a3e,color:#c6d6ce
-    style EX fill:#0f231a,stroke:#2e4a3e,color:#c6d6ce
-    style PROV fill:#0f231a,stroke:#2e4a3e,color:#c6d6ce
-    style POL fill:#0f231a,stroke:#2e4a3e,color:#c6d6ce
-    style UPD fill:#0f231a,stroke:#2e4a3e,color:#c6d6ce
-    style TEL fill:#0f231a,stroke:#2e4a3e,color:#c6d6ce
-```
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/arx-planes-dark.svg">
+  <img src="../assets/arx-planes.svg" alt="ARX platform architecture: four runtime planes and the operator control plane" width="100%">
+</picture>
+</p>
 
 ## Experience Plane
 

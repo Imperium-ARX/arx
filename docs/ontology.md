@@ -28,26 +28,12 @@ Edges carry the semantics: *owns*, *reports-to*, *responsible-for*, *derived-fro
 
 Alongside the graph sits the **taxonomy**: the company's controlled vocabulary. Every artifact in the knowledge fabric is classified against it, and the retrieval pipeline uses it for query expansion and disambiguation — when a seat says "the onboarding doc," the taxonomy is how ARX knows whether that means employee onboarding or client onboarding *for this seat, in this department*.
 
-```mermaid
-graph LR
-    S["Seat<br/><i>Head of Sales</i>"] -->|belongs to| OU["OrgUnit<br/><i>Sales</i>"]
-    S -->|responsible for| M["Metric<br/><i>Pipeline value</i>"]
-    M -->|authoritative in| SYS["System<br/><i>CRM</i>"]
-    OU -->|owns| P["Process<br/><i>Lead lifecycle</i>"]
-    P -->|documented by| A["Artifact<br/><i>Sales playbook</i>"]
-    E["Entity<br/><i>Client: Meridian Ltd</i>"] -->|managed by| OU
-    E -->|appears in| SYS
-    A -->|classified under| T(("Taxonomy<br/>node"))
-
-    style S fill:#0e1620,stroke:#4cb782,color:#f2f6f4
-    style OU fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style M fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style SYS fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style P fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style A fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style E fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style T fill:#0c1913,stroke:#2e4a3e,color:#c6d6ce
-```
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/company-ontology-dark.svg">
+  <img src="../assets/company-ontology.svg" alt="A Company Ontology excerpt: seat, org unit, entity, metric, system, process, artifact and the edges between them" width="100%">
+</picture>
+</p>
 
 ## How the ontology is built
 

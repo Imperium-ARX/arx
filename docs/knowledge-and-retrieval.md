@@ -8,29 +8,12 @@
 
 ARX maintains company knowledge in two tiers with explicit movement semantics between them.
 
-```mermaid
-flowchart LR
-    subgraph SEAT_A["Seat: Head of Sales"]
-        PA["Personal tier<br/>working files · notes · drafts<br/>durable seat memory"]
-    end
-    subgraph SEAT_B["Seat: Head of Ops"]
-        PB["Personal tier"]
-    end
-    subgraph COMPANY["Company tier (append-only)"]
-        CK["SOPs · playbooks · templates<br/>promoted knowledge · shared context"]
-    end
-    PA -- "explicit promotion<br/>(attributed, audited)" --> CK
-    PB -- "explicit promotion" --> CK
-    CK -- "read-only distribution" --> PA
-    CK -- "read-only distribution" --> PB
-
-    style SEAT_A fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style SEAT_B fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style COMPANY fill:#0c1913,stroke:#4cb782,color:#f2f6f4
-    style PA fill:#121c27,stroke:#2a3946,color:#c6d6ce
-    style PB fill:#121c27,stroke:#2a3946,color:#c6d6ce
-    style CK fill:#0f231a,stroke:#2e4a3e,color:#c6d6ce
-```
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/knowledge-tiers-dark.svg">
+  <img src="../assets/knowledge-tiers.svg" alt="The two-tier knowledge fabric: personal tiers per seat, an append-only company tier, explicit promotion up and read-only distribution down" width="100%">
+</picture>
+</p>
 
 ### Personal tier
 
@@ -53,21 +36,12 @@ Direct seat-to-seat transfer goes through the **secure exchange**: envelope-addr
 
 Grounding a question in the fabric is a staged pipeline, not a single similarity lookup. Each stage has one job.
 
-```mermaid
-flowchart TB
-    Q["Seat query"] --> SR["<b>Stage 0 — Scope resolution</b><br/>identity + ontology position → permitted corpus<br/><i>before anything is ranked</i>"]
-    SR --> CG["<b>Stage 1 — Candidate generation</b><br/>lexical index · semantic index · structural walk<br/>(ontology-adjacent expansion) · temporal slice"]
-    CG --> FF["<b>Stage 2 — Fusion & filtering</b><br/>cross-strategy de-duplication · authority weighting<br/>recency weighting · taxonomy disambiguation"]
-    FF --> CA["<b>Stage 3 — Context assembly</b><br/>budgeted, deterministic packing<br/>source labeling · provenance tags"]
-    CA --> RC["Reasoning core"]
-
-    style Q fill:#0e1620,stroke:#4cb782,color:#f2f6f4
-    style SR fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style CG fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style FF fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style CA fill:#0e1620,stroke:#2a3946,color:#f2f6f4
-    style RC fill:#0c1913,stroke:#4cb782,color:#f2f6f4
-```
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/retrieval-before-after-dark.svg">
+  <img src="../assets/retrieval-before-after.svg" alt="Ontology-guided retrieval: scope resolution, candidate generation, fusion and filtering, context assembly, against the industry default of similarity search over a pile of documents" width="100%">
+</picture>
+</p>
 
 **Stage 0 — Scope resolution.** The permitted corpus is computed from the seat's identity and ontology position before any ranking occurs. This ordering is a security property, not a performance choice: content outside scope is never scored, so it can never influence an answer or leak through a ranking side channel.
 
