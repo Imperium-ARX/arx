@@ -4,7 +4,7 @@
 
 We take security reports seriously and appreciate coordinated disclosure.
 
-- **Contact:** security@imperium-growth.com
+- **Contact:** security@imperiumos.ai
 - **Scope:** the ARX platform, its provisioning and update infrastructure, and this documentation where it misstates a security property.
 - **Please include:** a description of the issue, reproduction conditions where applicable, and your assessment of impact.
 

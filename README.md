@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/arx-banner.svg" alt="ARX — The Company AI Operating System" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+    <img src="assets/banner.png" alt="ARX: the company AI operating system. Four runtime planes, experience, intelligence, action and data, beside the operator control plane." width="100%">
+  </picture>
 </p>
 
 # ARX — The Company AI Operating System
